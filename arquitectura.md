@@ -387,11 +387,6 @@ graph TB
             TestAPI[test_api.sh]
             TestGateway[test_gateway_simple.sh]
         end
-        
-        Root --> Services
-        Root --> Docs
-        Root --> CI
-        Root --> Scripts
     end
     
     style Authors fill:#2196F3,stroke:#1565C0,color:#fff
